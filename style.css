@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #496d89;
+  background: #84a9ca;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ body {
 .player-container {
   height: 500px;
   width: 400px;
-  background: #d4a76a;
+  background: #a4a490;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
@@ -67,7 +67,7 @@ h3 {
 }
 
 .progress {
-  background: #242323;
+  background: #220035;
   border-radius: 5px;
   height: 100%;
   /* change this to show progress */
@@ -90,10 +90,17 @@ h3 {
   width: 200px;
 }
 
+.fas:hover {
+  filter: brightness(80%);
+  color: #4f2e00;
+}
+
 .fas {
   font-size: 30px;
-  color: rgb(129, 129, 129);
+  color: #fafafa;
   margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
 
 }
 
