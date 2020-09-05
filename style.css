@@ -1,5 +1,4 @@
 /* Images created by: https://unsplash.com/@pawel_czerwinski */
-
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap');
 
 html {
@@ -21,7 +20,7 @@ body {
 .player-container {
   height: 500px;
   width: 400px;
-  background: #a4a490;
+  background: whitesmoke;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
@@ -71,7 +70,7 @@ h3 {
   border-radius: 5px;
   height: 100%;
   /* change this to show progress */
-  width: 66%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 
@@ -80,6 +79,14 @@ h3 {
   top: -25px;
   display: flex;
   justify-content: space-between;
+}
+
+#right {
+  text-align: right;
+}
+
+#left {
+  text-align: left;
 }
 
 /* Controls */
@@ -97,14 +104,12 @@ h3 {
 
 .fas {
   font-size: 30px;
-  color: #fafafa;
+  color: #646464;
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
 
 }
-
-
 
 .main-button {
   font-size: 40px;
